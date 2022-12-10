@@ -99,9 +99,8 @@ class App extends Component {
 
         {showModal && (
           <Modal onClose={this.toggleModal}>
-            <img src={largeImage} alt="Full current picture" />
+            <img src={largeImage} alt="" />
           </Modal>
-          // alt="Full current image"
         )}
         {isLoading && <InfinitySpin width="200" color="#4fa94d" />}
 
